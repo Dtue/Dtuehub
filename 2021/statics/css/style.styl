@@ -1,0 +1,41 @@
+*
+    margin: 0
+    padding: 0
+
+// Colors
+$mainColor = #A9A9A9
+$secondColor = #F5F5F5
+$textBeforeMain = #fff
+
+// Fonts
+ @font-face
+   font-family: 'Nunito'
+   font-style: normal
+   src: url(https://fonts.googleapis.com/css?family=Nunito&display=swap)
+
+// Menu
+nav
+    background-color: $mainColor
+    width: 100vw
+    padding: 15px 0px 15px 15px
+    a 
+        color: $textBeforeMain
+        font-family: 'Nunito', sans-serif
+        margin-right: 10px
+        font-size: 15px
+        text-decoration: none
+        &:nth-child(1) 
+            font-size: 20px
+            margin-right: 20px
+        &:hover 
+            color: $secondColor
+            text-decoration: none
+
+footer
+    background-color: $mainColor
+    width: 100vw
+    padding: 15px 0px 15px 15px
+    color: $textBeforeMain
+    font-size: 15px
+    text-align: center
+    font-family: 'Nunito', sans-serif
